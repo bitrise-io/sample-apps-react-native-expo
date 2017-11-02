@@ -1,5 +1,28 @@
 {
   "expo": {
-    "sdkVersion": "22.0.0"
+    "name": "myproj",
+    "description": "An empty new project",
+    "slug": "myproj",
+    "privacy": "public",
+    "sdkVersion": "22.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname"
+    }
   }
 }
